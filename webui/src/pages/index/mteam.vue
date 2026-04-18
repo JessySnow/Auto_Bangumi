@@ -24,7 +24,10 @@ const generateAndSubscribe = async () => {
     const rssUrl = `${window.location.protocol}//${window.location.host}/api/v1/mteam/rss?keyword=${encodeURIComponent(form.value.animeName)}&publisher=${encodeURIComponent(form.value.publisher)}&api_key=${encodeURIComponent(form.value.apiKey)}`;
     
     // Auto-add it to the actual RSS engine using aggregate parameters
+    const { rssTemplate } = await import('#/rss');
     const rssPayload = {
+      ...rssTemplate,
+      id: 0,
       name: `M-Team: ${form.value.animeName}`,
       url: rssUrl,
       aggregate: true,
@@ -33,6 +36,10 @@ const generateAndSubscribe = async () => {
     };
     
     await apiRSS.add(rssPayload);
+    
+    // Force refresh store so it appears in RSS tab
+    const rssStore = useRSSStore();
+    await rssStore.getAll();
     
     message.success('已生成订阅链接并自动配置到系统 RSS 中！请移步“RSS 管理”页面查看。');
   } catch (err) {

@@ -1,3 +1,280 @@
-[2026-04-18 16:12:27] ERROR     ERROR:module.checker.checker:[Checker] Downloader connect failed: Request URL is missing an 'http://' or 'https://' protocol.
-[2026-04-18 16:12:27] WARNING:  WARNING::module.core.program:Downloader is not running. (attempt 5/10)
-[2026-04-18 16:12:27] INFO:     INFO::module.core.program:Waiting for downloader to start...
+[2026-04-18 19:46:09] INFO:     INFO::uvicorn.error:Started server process [7]
+[2026-04-18 19:46:09] INFO:     INFO::uvicorn.error:Waiting for application startup.
+[2026-04-18 19:46:09] INFO:     INFO::module.core.program:
+[2026-04-18 19:46:09] INFO:     INFO::module.core.program:               _        ____                                    _
+[2026-04-18 19:46:09] INFO:     INFO::module.core.program:    /\        | |      |  _ \                                  (_)
+[2026-04-18 19:46:09] INFO:     INFO::module.core.program:   /  \  _   _| |_ ___ | |_) | __ _ _ __   __ _ _   _ _ __ ___  _
+[2026-04-18 19:46:09] INFO:     INFO::module.core.program:  / /\ \| | | | __/ _ \|  _ < / _` | '_ \ / _` | | | | '_ ` _ \| |
+[2026-04-18 19:46:09] INFO:     INFO::module.core.program: / ____ \ |_| | || (_) | |_) | (_| | | | | (_| | |_| | | | | | | |
+[2026-04-18 19:46:09] INFO:     INFO::module.core.program:/_/    \_\__,_|\__\___/|____/ \__,_|_| |_|\__, |\__,_|_| |_| |_|_|
+[2026-04-18 19:46:09] INFO:     INFO::module.core.program:                                           __/ |
+[2026-04-18 19:46:09] INFO:     INFO::module.core.program:                                          |___/
+[2026-04-18 19:46:09] INFO:     INFO::module.core.program:Version 3.2.0  Author: EstrellaXD Twitter: https://twitter.com/Estrella_Pan
+[2026-04-18 19:46:09] INFO:     INFO::module.core.program:GitHub: https://github.com/EstrellaXD/Auto_Bangumi/
+[2026-04-18 19:46:09] INFO:     INFO::module.core.program:Starting AutoBangumi...
+[2026-04-18 19:46:09] INFO:     INFO::module.conf.config:Config loaded
+[2026-04-18 19:46:09] ERROR     ERROR:module.checker.checker:[Checker] Downloader connect failed: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 19:46:09] WARNING:  WARNING::module.core.program:Downloader is not running. (attempt 1/10)
+[2026-04-18 19:46:09] INFO:     INFO::module.core.program:Waiting for downloader to start...
+[2026-04-18 19:46:09] INFO:     INFO::uvicorn.error:Application startup complete.
+[2026-04-18 19:46:09] INFO:     INFO::uvicorn.error:Uvicorn running on http://0.0.0.0:7892 (Press CTRL+C to quit)
+[2026-04-18 19:46:39] ERROR     ERROR:module.checker.checker:[Checker] Downloader connect failed: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 19:46:39] WARNING:  WARNING::module.core.program:Downloader is not running. (attempt 2/10)
+[2026-04-18 19:46:39] INFO:     INFO::module.core.program:Waiting for downloader to start...
+[2026-04-18 19:47:09] ERROR     ERROR:module.checker.checker:[Checker] Downloader connect failed: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 19:47:09] WARNING:  WARNING::module.core.program:Downloader is not running. (attempt 3/10)
+[2026-04-18 19:47:09] INFO:     INFO::module.core.program:Waiting for downloader to start...
+[2026-04-18 19:47:39] ERROR     ERROR:module.checker.checker:[Checker] Downloader connect failed: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 19:47:39] WARNING:  WARNING::module.core.program:Downloader is not running. (attempt 4/10)
+[2026-04-18 19:47:39] INFO:     INFO::module.core.program:Waiting for downloader to start...
+[2026-04-18 19:48:09] ERROR     ERROR:module.checker.checker:[Checker] Downloader connect failed: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 19:48:09] WARNING:  WARNING::module.core.program:Downloader is not running. (attempt 5/10)
+[2026-04-18 19:48:09] INFO:     INFO::module.core.program:Waiting for downloader to start...
+[2026-04-18 19:48:39] ERROR     ERROR:module.checker.checker:[Checker] Downloader connect failed: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 19:48:39] WARNING:  WARNING::module.core.program:Downloader is not running. (attempt 6/10)
+[2026-04-18 19:48:39] INFO:     INFO::module.core.program:Waiting for downloader to start...
+[2026-04-18 19:49:09] ERROR     ERROR:module.checker.checker:[Checker] Downloader connect failed: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 19:49:09] WARNING:  WARNING::module.core.program:Downloader is not running. (attempt 7/10)
+[2026-04-18 19:49:09] INFO:     INFO::module.core.program:Waiting for downloader to start...
+[2026-04-18 19:49:39] ERROR     ERROR:module.checker.checker:[Checker] Downloader connect failed: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 19:49:39] WARNING:  WARNING::module.core.program:Downloader is not running. (attempt 8/10)
+[2026-04-18 19:49:39] INFO:     INFO::module.core.program:Waiting for downloader to start...
+[2026-04-18 19:50:09] ERROR     ERROR:module.checker.checker:[Checker] Downloader connect failed: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 19:50:09] WARNING:  WARNING::module.core.program:Downloader is not running. (attempt 9/10)
+[2026-04-18 19:50:09] INFO:     INFO::module.core.program:Waiting for downloader to start...
+[2026-04-18 19:50:39] ERROR     ERROR:module.checker.checker:[Checker] Downloader connect failed: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 19:50:39] WARNING:  WARNING::module.core.program:Downloader is not running. (attempt 10/10)
+[2026-04-18 19:50:39] ERROR     ERROR:module.core.program:Failed to connect to downloader after maximum retries. Please check downloader settings and network/proxy configuration. Program will continue but download functions will not work.
+[2026-04-18 19:50:39] INFO:     INFO::module.core.sub_thread:[OffsetScanThread] Started offset scanner
+[2026-04-18 19:50:39] INFO:     INFO::module.core.sub_thread:[CalendarRefreshThread] Started calendar refresh (every 24h)
+[2026-04-18 19:50:39] INFO:     INFO::module.core.program:Program running.
+[2026-04-18 19:50:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 19:50:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 19:50:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 19:50:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 19:50:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 19:50:39] ERROR     ERROR:module.core.sub_thread:[RSSThread] Error during RSS loop: Download client authentication failed
+[2026-04-18 19:51:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 19:51:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 19:51:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 19:51:39] INFO:     INFO::module.core.offset_scanner:[OffsetScanner] Starting offset scan...
+[2026-04-18 19:51:39] INFO:     INFO::module.core.sub_thread:[OffsetScanThread] Scan complete, flagged 0 bangumi
+[2026-04-18 19:52:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 19:52:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 19:52:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 19:52:40] INFO:     INFO::module.parser.analyser.bgm_calendar:[BGM Calendar] Fetched 97 airing anime from Bangumi.tv.
+[2026-04-18 19:52:40] INFO:     INFO::module.manager.torrent:[Manager] Calendar refresh: updated 0 bangumi.
+[2026-04-18 19:52:40] INFO:     INFO::module.core.sub_thread:[CalendarRefreshThread] Calendar refresh completed
+[2026-04-18 19:53:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 19:53:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 19:53:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 19:54:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 19:54:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 19:54:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 19:55:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 19:55:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 19:55:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 19:56:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 19:56:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 19:56:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 19:57:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 19:57:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 19:57:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 19:58:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 19:58:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 19:58:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 19:59:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 19:59:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 19:59:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:00:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:00:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:00:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:01:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:01:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:01:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:02:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:02:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:02:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:03:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:03:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:03:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:04:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:04:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:04:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:05:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:05:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:05:39] ERROR     ERROR:module.core.sub_thread:[RSSThread] Error during RSS loop: Download client authentication failed
+[2026-04-18 20:05:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:05:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:05:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:06:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:06:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:06:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:07:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:07:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:07:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:08:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:08:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:08:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:09:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:09:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:09:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:10:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:10:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:10:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:11:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:11:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:11:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:12:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:12:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:12:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:13:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:13:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:13:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:14:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:14:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:14:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:15:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:15:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:15:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:16:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:16:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:16:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:17:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:17:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:17:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:18:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:18:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:18:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:19:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:19:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:19:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:20:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:20:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:20:39] ERROR     ERROR:module.core.sub_thread:[RSSThread] Error during RSS loop: Download client authentication failed
+[2026-04-18 20:20:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:20:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:20:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:21:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:21:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:21:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:22:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:22:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:22:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:23:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:23:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:23:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:24:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:24:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:24:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:25:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:25:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:25:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:26:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:26:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:26:39] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:27:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:27:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:27:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:28:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:28:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:28:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:29:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:29:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:29:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:30:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:30:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:30:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:31:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:31:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:31:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:32:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:32:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:32:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:33:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:33:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:33:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:34:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:34:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:34:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:35:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:35:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:35:39] ERROR     ERROR:module.core.sub_thread:[RSSThread] Error during RSS loop: Download client authentication failed
+[2026-04-18 20:35:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:35:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:35:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:36:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:36:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:36:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:37:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:37:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:37:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:38:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:38:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:38:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:39:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:39:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:39:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:40:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:40:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:40:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:41:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:41:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:41:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:42:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:42:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:42:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:43:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:43:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:43:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:44:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:44:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:44:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:45:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:45:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:45:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:46:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:46:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:46:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:47:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:47:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:47:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:48:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:48:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:48:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:49:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:49:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:49:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:50:39] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:50:39] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:50:39] ERROR     ERROR:module.core.sub_thread:[RSSThread] Error during RSS loop: Download client authentication failed
+[2026-04-18 20:50:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:50:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:50:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:51:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:51:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:51:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:52:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:52:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:52:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:53:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:53:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:53:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:54:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:54:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:54:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:55:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:55:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:55:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:56:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:56:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:56:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:57:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:57:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:57:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:58:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:58:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:58:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed
+[2026-04-18 20:59:40] ERROR     ERROR:module.downloader.client.qb_downloader:Unknown error: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 20:59:40] ERROR     ERROR:module.downloader.download_client:[Downloader] Auth failed.
+[2026-04-18 20:59:40] ERROR     ERROR:module.core.sub_thread:[RenameThread] Error during rename loop: Download client authentication failed

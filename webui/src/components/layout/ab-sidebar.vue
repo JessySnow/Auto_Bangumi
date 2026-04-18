@@ -10,6 +10,7 @@ import {
   Play,
   SettingTwo,
   Sun,
+  Link,
 } from '@icon-park/vue-next';
 import InlineSvg from 'vue-inline-svg';
 
@@ -83,7 +84,7 @@ const items = [
   },
   {
     id: 8,
-    icon: RSS,
+    icon: Link,
     label: () => t('sidebar.mteam') || 'M-Team',
     path: '/mteam',
   },

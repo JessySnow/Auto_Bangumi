@@ -81,6 +81,12 @@ const items = [
     label: () => t('sidebar.config'),
     path: '/config',
   },
+  {
+    id: 8,
+    icon: RSS,
+    label: () => t('sidebar.mteam') || 'M-Team',
+    path: '/mteam',
+  },
 ];
 
 function Exit() {

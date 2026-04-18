@@ -106,13 +106,18 @@ const canTest = computed(() => {
         <ab-button size="small" type="secondary" @click="setupStore.prevStep()">
           {{ t('setup.nav.previous') }}
         </ab-button>
-        <ab-button
-          size="small"
-          :disabled="!validation.downloaderTested"
-          @click="handleNext"
-        >
-          {{ t('setup.nav.next') }}
-        </ab-button>
+        <div style="display: flex; gap: 8px;">
+          <ab-button size="small" type="secondary" @click="handleNext">
+            {{ t('setup.nav.skip') }}
+          </ab-button>
+          <ab-button
+            size="small"
+            :disabled="!validation.downloaderTested"
+            @click="handleNext"
+          >
+            {{ t('setup.nav.next') }}
+          </ab-button>
+        </div>
       </div>
     </div>
   </ab-container>

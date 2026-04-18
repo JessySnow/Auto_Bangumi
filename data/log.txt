@@ -1,0 +1,3 @@
+[2026-04-18 16:12:27] ERROR     ERROR:module.checker.checker:[Checker] Downloader connect failed: Request URL is missing an 'http://' or 'https://' protocol.
+[2026-04-18 16:12:27] WARNING:  WARNING::module.core.program:Downloader is not running. (attempt 5/10)
+[2026-04-18 16:12:27] INFO:     INFO::module.core.program:Waiting for downloader to start...

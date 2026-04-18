@@ -21,6 +21,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Set lowercase image name
+        run: |
+          echo "IMAGE_NAME_LOWER=${GITHUB_REPOSITORY,,}" >> $GITHUB_ENV
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
@@ -71,7 +75,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME_LOWER }}
           tags: type=raw,value=latest
 
       - name: Set up QEMU
@@ -96,27 +100,30 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
+             echo "Authenticating sudo session..."
+             echo ${{ secrets.SERVER_PASSWORD }} | sudo -S true
+             
              echo "Logging into ghcr.io..."
-             echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+             echo ${{ secrets.GITHUB_TOKEN }} | sudo docker login ghcr.io -u ${{ github.actor }} --password-stdin
              
              echo "Pulling latest image..."
-             docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+             sudo docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME_LOWER }}:latest
              
              echo "Stopping and removing existing container..."
-             docker stop auto_bangumi_mteam || true
-             docker rm auto_bangumi_mteam || true
+             sudo docker stop auto_bangumi_mteam || true
+             sudo docker rm auto_bangumi_mteam || true
              
              echo "Setting up Data Volume Config..."
-             mkdir -p /opt/auto_bangumi/config
-             mkdir -p /opt/auto_bangumi/data
+             sudo mkdir -p /opt/auto_bangumi/config
+             sudo mkdir -p /opt/auto_bangumi/data
              
              echo "Starting new container bounded to Tailscale IP..."
-             docker run -d \
+             sudo docker run -d \
                --name=auto_bangumi_mteam \
                -p ${{ secrets.TAILSCALE_IP }}:7892:7892 \
                -v /opt/auto_bangumi/config:/app/config \
                -v /opt/auto_bangumi/data:/app/data \
                --restart unless-stopped \
-               ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+               ${{ env.REGISTRY }}/${{ env.IMAGE_NAME_LOWER }}:latest
              
              echo "Deployment finished and live at ${{ secrets.TAILSCALE_IP }}:7892!"
